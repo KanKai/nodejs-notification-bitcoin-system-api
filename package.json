@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-notification-bitcoin-system-api",
+  "version": "1.0.0",
+  "description": "push notification bitcoin price",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanKai/nodejs-notification-bitcoin-system-api.git"
+  },
+  "author": "jeerawat_codemoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanKai/nodejs-notification-bitcoin-system-api/issues"
+  },
+  "homepage": "https://github.com/KanKai/nodejs-notification-bitcoin-system-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.12"
+  }
+}
